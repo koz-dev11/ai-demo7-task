@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "serena_ai-demo7-task": {
+      "command": "C:\\Users\\ww-surface-105\\.local\\bin\\uvx.exe",
+      "cwd": "C:\\Users\\ww-surface-105\\ozasa\\共通\\Cursor\\ai-demo7-task",
+      "args": [
+        "--system-certs",
+        "-p", "3.13",
+        "--from", "git+https://github.com/oraios/serena",
+        "serena", "start-mcp-server",
+        "--context", "ide",
+        "--project", "C:/Users/ww-surface-105/ozasa/共通/Cursor/ai-demo7-task"
+      ],
+      "env": {
+        "PROJECT_NAME": "ai-demo7-task",
+        "PROJECT_RULES_PATH": "docs/rules/project-rules-serena.md",
+        "PREFERRED_LANGUAGE": "ja",
+        "NODE_OPTIONS": "--use-system-ca"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"],
+      "env": {
+        "NODE_OPTIONS": "--use-system-ca"
+      }
+    }
+  }
+}

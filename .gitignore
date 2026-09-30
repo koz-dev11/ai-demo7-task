@@ -1,0 +1,20 @@
+.serena/
+frontend/.env.production
+infra/.ca-bundle.pem
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+.playwright-mcp/
+backend/.venv/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+infra/cdk.out/
+frontend/dist/
+frontend/test-results/
