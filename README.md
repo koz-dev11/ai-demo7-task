@@ -5,6 +5,10 @@
 
 三段、見た目の `screen-layout`、`task-content`、`nav-and-assignee` まで実装済みである。企画は OpenSpec（schema: spec-driven、capability は `task`）。実装は確認済みの段だけ進める。
 
+## URL
+- 画面: https://ddll2lik7dg4j.cloudfront.net
+- API: https://4yydj54vxe.execute-api.ap-northeast-1.amazonaws.com
+
 ## 成功条件（`nav-and-assignee` まで）
 
 - メンバーの登録・一覧・削除ができる
@@ -132,11 +136,6 @@ npx playwright test
 cd backend
 .\.venv\Scripts\python.exe -m pytest
 ```
-
-## URL
-
-- 画面: https://ddll2lik7dg4j.cloudfront.net
-- API: https://4yydj54vxe.execute-api.ap-northeast-1.amazonaws.com
 
 ## 進捗
 
